@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+  background-color: rgb(221, 221, 221);
+  color: rgb(22, 22, 22);
+  font-size: 19px;
+  font-family: "Ubuntu", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  opacity: 0.6;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 10px;
+}
+
+.header__content {
+  display: flex;
+}
+
+.header__description {
+  margin-left: 30px;
+}
+
+.header__image {
+  width: 400px;
+  border-radius: 30px;
+  box-shadow: 2px 2px 10px black;
+}
+
+.info {
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: rgb(216, 172, 172);
+}
+
+.info p {
+  color: rgb(82, 82, 82);
+}
+
+.card {
+  background-color: rgb(177, 190, 192);
+  padding: 10px 40px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.card__title {
+  margin-bottom: 30px;
+}
+
+.card__list {
+  padding: 0 20px;
+}
+
+.list li {
+  color: rgb(49, 49, 49);
+  margin-bottom: 10px;
+}
+
+.card__table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.card__table td {
+  text-align: center;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 20px;
+}
+
+.form-group textarea,
+.form-group input {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid black;
+  outline: none;
+  font-family: inherit;
+  font-size: 20px;
+  padding: 15px 0 10px;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row > .form-group {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+  margin-right: 0;
+}
+
+.contact__info {
+  margin-bottom: 200px;
+}
+
+.button {
+  background: black;
+  padding: 15px 20px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 700px) {
+  .header {
+    display: block;
+    text-align: center;
+  }
+}
+
+.button-group {
+  text-align: center;
+}
